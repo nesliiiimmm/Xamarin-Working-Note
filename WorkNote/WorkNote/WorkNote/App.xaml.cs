@@ -11,7 +11,7 @@ namespace WorkNote
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new RelativeLayout();
         }
 
         protected override void OnStart()
