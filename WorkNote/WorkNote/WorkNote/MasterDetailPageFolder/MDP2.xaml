@@ -4,9 +4,7 @@
              x:Class="WorkNote.MasterDetailPageFolder.MDP2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <BoxView Color="DarkBlue"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

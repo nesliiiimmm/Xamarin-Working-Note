@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="WorkNote.MasterDetailPageFolder.MDP1">
+             x:Class="WorkNote.CarouselPageFolder.CP3">
     <ContentPage.Content>
         <StackLayout>
-            <Button  BackgroundColor="White"/>
-            <Entry BackgroundColor="Yellow"/>
-            <Picker BackgroundColor="Orange"/>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

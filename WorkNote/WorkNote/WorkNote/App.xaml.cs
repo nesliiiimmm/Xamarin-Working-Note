@@ -11,7 +11,7 @@ namespace WorkNote
         {
             InitializeComponent();
 
-            MainPage =new MasterDetailPageSample();
+            MainPage =new CarouselPageSample();
         }
 
         protected override void OnStart()

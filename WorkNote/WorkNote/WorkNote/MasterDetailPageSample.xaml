@@ -4,11 +4,11 @@
              xmlns:local="clr-namespace:WorkNote.MasterDetailPageFolder"
              x:Class="WorkNote.MasterDetailPageSample">
     <MasterDetailPage.Master>
-        <local:MDP1  BackgroundColor="Red"></local:MDP1>
+        <local:MDP1 Title="Page 1" BackgroundColor="Red"></local:MDP1>
     </MasterDetailPage.Master>
 
     <MasterDetailPage.Detail>
-        <local:MDP2 BackgroundColor="Blue"></local:MDP2>
+        <local:MDP2 Title="Page 2" BackgroundColor="Blue"></local:MDP2>
     </MasterDetailPage.Detail>
     
 </MasterDetailPage>
