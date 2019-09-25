@@ -11,7 +11,7 @@ namespace WorkNote
         {
             InitializeComponent();
 
-            MainPage =new CarouselPageSample();
+            MainPage =new XamarinElementPage();
         }
 
         protected override void OnStart()
