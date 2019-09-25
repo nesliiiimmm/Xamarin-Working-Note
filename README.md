@@ -9,6 +9,7 @@
 
 ## Pages
 
-* Relative Layout Pages
+* Relative Layout Page
 * Tabbed Page
 * Master Detail Page
+* Carousel Page
