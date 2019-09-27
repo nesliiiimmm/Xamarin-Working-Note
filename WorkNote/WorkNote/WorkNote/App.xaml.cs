@@ -11,8 +11,8 @@ namespace WorkNote
         {
             InitializeComponent();
 
-            MainPage =new XamarinElementPage();
-        }
+            MainPage =new ListViewSample2();
+        } 
 
         protected override void OnStart()
         {

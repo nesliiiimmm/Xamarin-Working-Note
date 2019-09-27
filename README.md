@@ -13,3 +13,14 @@
 * Tabbed Page
 * Master Detail Page
 * Carousel Page
+
+## Elements
+
+* Basic Elements
+* Binding Context
+
+## ListView ve Data Binding
+
+* ListView ve Cell Tipleri, DataBinding
+* ListView Context Actions ve Refreshing
+* TableView
