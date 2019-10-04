@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace WorkNote
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AbsoluteLayout : ContentPage
+	public partial class TableViewPage : ContentPage
 	{
-		public AbsoluteLayout ()
+		public TableViewPage ()
 		{
 			InitializeComponent ();
 		}
-
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            image.IsVisible = true;
-        }
-    }
+	}
 }

@@ -24,3 +24,14 @@
 * ListView ve Cell Tipleri, DataBinding
 * ListView Context Actions ve Refreshing
 * TableView
+
+## Custom Renderers
+
+* Picker with Icon
+* ExtendedViewCell
+* WebView and Zoom Button
+* BottomNavBar
+ 
+## Splash Screen
+
+* Splash screen

@@ -11,7 +11,7 @@ namespace WorkNote
         {
             InitializeComponent();
 
-            MainPage =new ListViewSample2();
+            MainPage =new splashPage();
         } 
 
         protected override void OnStart()
