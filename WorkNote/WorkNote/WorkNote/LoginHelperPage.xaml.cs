@@ -10,14 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace WorkNote
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class StackLayout : ContentPage
+	public partial class LoginHelperPage : ContentPage
 	{
-		public StackLayout ()
+		public LoginHelperPage ()
 		{
 			InitializeComponent ();
 		}
-
-        public object VerticalOptions { get; internal set; }
-        public LayoutOptions HorizontalOptions { get; internal set; }
-    }
+	}
 }

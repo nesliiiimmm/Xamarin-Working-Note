@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<slideoverkit:MenuContainerPage
+             xmlns:slideoverkit="clr-namespace:SlideOverKit;assembly=SlideOverKit" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WorkNote.SlideOverKitRootPage">
+    <StackLayout Orientation="Horizontal" Padding="0,30,0,0" HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand">
+        <Button x:Name="Onay" Text="İşlevler" BackgroundColor="#BBDEFB" TextColor="Black" HorizontalOptions="FillAndExpand"  VerticalOptions="EndAndExpand" 
+                ></Button>
+        <!--<local1:CustomButton x:Name="Belge" Text="Belge" BackgroundColor="LightBlue" TextColor="Black" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" 
+                 ></local1:CustomButton><local1:CustomButton x:Name="Red" Text="Red" BackgroundColor="LightBlue" TextColor="Black" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" ></local1:CustomButton><local1:CustomButton x:Name="ata" Text="Ata" BackgroundColor="LightBlue" TextColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" ></local1:CustomButton>-->
+    </StackLayout>
+    
+</slideoverkit:MenuContainerPage>

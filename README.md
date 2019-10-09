@@ -35,3 +35,24 @@
 ## Splash Screen
 
 * Splash screen
+
+## Ýþlevsel Nuget Packages
+
+* ImageCircle
+* Rg.PopUp.Plugin
+* SlideOverKit
+* External Maps(??)
+* Xam.Forms.Calendar
+* Settings
+* CrossConnectivity
+* Barcode Reader
+
+## Behavior Validation 
+
+* Mail
+* Numeric
+* Password
+
+## IValueConverter
+
+* IValueConverter

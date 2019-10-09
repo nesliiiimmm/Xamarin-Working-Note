@@ -10,14 +10,17 @@ using Xamarin.Forms.Xaml;
 namespace WorkNote
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class StackLayout : ContentPage
+	public partial class CalendarSamplePage : ContentPage
 	{
-		public StackLayout ()
+		public CalendarSamplePage ()
 		{
 			InitializeComponent ();
 		}
 
-        public object VerticalOptions { get; internal set; }
-        public LayoutOptions HorizontalOptions { get; internal set; }
+        private async void ShowDate_Clicked(object sender, EventArgs e)
+        {
+            await DisplayAlert("Uyarı",calendar.SelectedDate.ToString(),"Tamam");
+        }
+
     }
 }

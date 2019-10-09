@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using ImageCircle.Forms.Plugin.iOS;
 using UIKit;
 
 namespace WorkNote.iOS
@@ -22,7 +23,10 @@ namespace WorkNote.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            global::Xamarin.Forms.Forms.Init();
+            Rg.Plugins.Popup.Popup.Init();
+            ZXing.Net.Mobile.Forms.iOS.Platform.Init();
+            //global::Xamarin.Forms.Forms.Init();
+            //ImageCircleRenderer.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

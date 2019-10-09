@@ -11,7 +11,7 @@ namespace WorkNote
         {
             InitializeComponent();
 
-            MainPage =new splashPage();
+            MainPage = new ValueConverterExamplePage();
         } 
 
         protected override void OnStart()

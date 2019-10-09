@@ -1,8 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converter="clr-namespace:WorkNote.Converter"
              x:Class="WorkNote.App">
     <Application.Resources>
+        <ResourceDictionary>
+            <converter:TeamImageConverter x:Key="TeamImageConverter"
+                                          fenerbahce="FB.png"
+                                          galatasaray="GS.png"
+                                          besiktas="BJK.png"
+                                          trabzonspor="TS.png">
+            </converter:TeamImageConverter>
+        </ResourceDictionary>
 
     </Application.Resources>
 </Application>

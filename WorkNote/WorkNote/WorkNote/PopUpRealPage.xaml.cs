@@ -10,14 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace WorkNote
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class StackLayout : ContentPage
-	{
-		public StackLayout ()
+	public partial class PopUpRealPage : Rg.Plugins.Popup.Pages.PopupPage
+    {
+		public PopUpRealPage ()
 		{
 			InitializeComponent ();
 		}
-
-        public object VerticalOptions { get; internal set; }
-        public LayoutOptions HorizontalOptions { get; internal set; }
-    }
+	}
 }

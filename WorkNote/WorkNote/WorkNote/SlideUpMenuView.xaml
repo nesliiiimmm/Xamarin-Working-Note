@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<t1:SlideMenuView
+    xmlns:t1="clr-namespace:SlideOverKit;assembly=SlideOverKit" 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+
+    x:Class="WorkNote.SlideUpMenuView" BackgroundColor="DarkGray" HeightRequest="250">
+
+
+    <Grid RowSpacing="0" BackgroundColor="White" ColumnSpacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="6*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Frame HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.ColumnSpan="2" BackgroundColor="#BBDEFB" BorderColor="Black" >
+            <StackLayout Orientation="Horizontal" Spacing="6" >
+                <Label Text="İşlevler" TextColor="Black" BackgroundColor="Transparent" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+        </Frame>
+
+        <Image Grid.Column="0" Grid.Row="1" Source="onay.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="EndAndExpand" VerticalOptions="Center" BackgroundColor="Transparent"/>
+        <Button Text="Onay  " Grid.Column="1" Grid.Row="1" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black" BackgroundColor="Transparent" x:Name="Onay">
+            <Button.Margin>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="Android" Value="0, 0, 0, 0"/>
+                    <!--<On Platform="WinPhone" Value="0, 0, 0, 0"/>
+                    <On Platform="iOS" Value="14, 0, 0, 0"/>-->
+                </OnPlatform>
+            </Button.Margin>
+        </Button>
+        <Image Grid.Column="0" Grid.Row="2" Source="PDF.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="EndAndExpand" VerticalOptions="Center" BackgroundColor="Transparent"/>
+        <Button Text="Belge " Grid.Column="1" Grid.Row="2" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black" BackgroundColor="Transparent" x:Name="Belge">
+            <Button.Margin>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="Android" Value="0, 0, 0, 0"/>
+                    <!--<On Platform="WinPhone" Value="0, 0, 0, 0"/>
+                    <On Platform="iOS" Value="14, 0, 0, 0"/>-->
+                </OnPlatform>
+            </Button.Margin>
+        </Button>
+        <Image Grid.Column="0" Grid.Row="3" Source="reject.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="EndAndExpand" VerticalOptions="Center" BackgroundColor="Transparent"/>
+        <Button Text="Red   " Grid.Column="1" Grid.Row="3" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black" BackgroundColor="Transparent" x:Name="Red">
+            <Button.Margin>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="Android" Value="0, 0, 0, 0"/>
+                    <!--<On Platform="WinPhone" Value="0, 0, 0, 0"/>
+                    <On Platform="iOS" Value="14, 0, 0, 0"/>-->
+                </OnPlatform>
+            </Button.Margin>
+        </Button>
+        <Image Grid.Column="0" Grid.Row="4" Source="choose.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="EndAndExpand" VerticalOptions="Center" BackgroundColor="Transparent"/>
+        <Button Text="Ata   " Grid.Column="1" Grid.Row="4" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black" BackgroundColor="Transparent" x:Name="Ata">
+            <Button.Margin>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="Android" Value="0, 0, 0, 0"/>
+                    <!--<On Platform="WinPhone" Value="0, 0, 0, 0"/>
+                    <On Platform="iOS" Value="14, 0, 0, 0"/>-->
+                </OnPlatform>
+            </Button.Margin>
+        </Button>
+    </Grid>
+</t1:SlideMenuView >
