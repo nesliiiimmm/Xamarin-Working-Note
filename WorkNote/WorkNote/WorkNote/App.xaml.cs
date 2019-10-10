@@ -1,4 +1,5 @@
 ﻿using System;
+using WorkNote.RealmDBProjectPages;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace WorkNote
         {
             InitializeComponent();
 
-            MainPage = new ValueConverterExamplePage();
+            MainPage = new CreatePage();
         } 
 
         protected override void OnStart()

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WorkNote.RealmDBProjectPages.CreatePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="EmployeeName" x:Name="EmployeeName"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry Placeholder="EmployeeSurname" x:Name="EmployeeSurname"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry Placeholder="EmployeeAge" x:Name="EmployeeAge"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry Placeholder="EmployeeCountry" x:Name="EmployeeCountry"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Create Employee" x:Name="btnCreateEmployee" Clicked="BtnCreateEmployee_Clicked"/>
+            <ListView x:Name="LstCreate">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{Binding EmployeeName}" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Start"/>
+                                <Label Text="{Binding EmployeeSurname}" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="End"/>
+                                <Label Text="{Binding EmployeeAge}" Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Start"/>
+                                <Label Text="{Binding EmployeeCountry}" Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="End"/>
+
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Go to ReadPage" x:Name="btnReadPage" Clicked="BtnReadPage_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

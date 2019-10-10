@@ -56,3 +56,15 @@
 ## IValueConverter
 
 * IValueConverter
+
+## Dependency Service
+
+* Dependency Service yapýsý
+
+## Localization
+
+* Localization yapýsý
+
+## RealmDB ile Veritabaný Ýþlemleri(CRUD)
+
+* RealmDB yapýsý, Data Binding ve CRUD
