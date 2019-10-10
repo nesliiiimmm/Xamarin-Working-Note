@@ -59,12 +59,12 @@
 
 ## Dependency Service
 
-* Dependency Service yapýsý
+* Dependency Service yapisi
 
 ## Localization
 
-* Localization yapýsý
+* Localization yapisi
 
-## RealmDB ile Veritabaný Ýþlemleri(CRUD)
+## RealmDB ile Veritabani Islemleri(CRUD)
 
-* RealmDB yapýsý, Data Binding ve CRUD
+* RealmDB yapisi, Data Binding ve CRUD
